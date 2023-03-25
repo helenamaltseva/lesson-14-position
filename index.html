@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonts</title>
+  <link rel="stylesheet" href="css/normolize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header__block">
+      <p class="header__block-text">ENG</p>
+      <nav class="header__block-navigation">
+        <ul class="header__block-navigation-list">
+          <li class="header__block-navigation-list-item">Documentation</li>
+          <p class="header__block-navigation-list-text">/</p>
+          <li class="header__block-navigation-list-item">Who's using</li>
+        </ul>
+      </nav>
+      <img class="header__block-logo" src="img/company-logo-black.svg" alt="Logo">
+    </div>  
+  </div>
+
+  <aside class="side-bar">
+    <h2 class="side-bar__title1">Introduction</h2>
+    <h2 class="side-bar__title2">core components</h2>
+    <h2 class="side-bar__title3">react fundamentals</h2>
+    <h2 class="side-bar__title4">handling text input</h2>
+  </aside>
+
+  <div class="main">
+    <div class="main__image">
+      <img class="main__image-item" src="img/bg-picture.svg" alt="">
+    </div>
+
+    <div class="main__divider1"></div>
+
+    <div class="main__chapter1">
+      <div class="main__chapter1-title">
+        <h2 class="main__chapter1-title-header">introduction</h2>
+        <p class="main__chapter1-title-text">Chapter1</p>
+      </div>  
+      <div class="main__chapter1-text">
+        <p class="main__chapter1-text-item1">Welcome to the very start of your React Native journey! If you're <br> looking for environment setup  
+          instructions, they've moved to <br/>  <u> their own section </u> . Continue reading for an introduction to the  <br/> 
+          documentation, Native Components, React, and more!</p>
+      </div>  
+    </div>
+
+    <div class="main__divider2"></div>
+
+    <div class="main__chapter2">
+      <div class="main__chapter2-title">
+        <h2 class="main__chapter2-title-header">core components</h2>
+        <p class="main__chapter2-title-text">Chapter2</p>
+      </div>
+      <div class="main__chapter2-text">
+        <p class="main__chapter2-text-item1">React Native is an open source framework for building Android <br/> and iOS applications using React 
+          and the app platform’s native <br/> capabiles. With React Native, you use JavaScript to access your <br/>  
+          platform’s  APIs as well as to describe the appearance and <br/> behavior of your UI using React 
+          components: <em> bundles of reusable, <br/> nestable code </em>. You learn more about React in the next section. <br/>   
+          But first, let’s cover how components work in React Native.</p> 
+      </div>  
+    </div>
+    
+    <div class="main__divider3"></div>
+    
+    <div class="main__chapter3">
+      <div class="main__chapter3-title">
+        <h2 class="main__chapter3-title-header">react fundamentals</h2>
+        <p class="main__chapter3-title-text">Chapter3</p>
+      </div> 
+      <div class="main__chapter3-text">
+        <p class="main__chapter3-text-item1">React Native runs on <u> React </u> , a popular open source library for <br/> building user interfaces with  
+          JavaScript. To make the most of <br/> React Native, it helps to understand React itself. This section can <br/> get  
+          you started or can serve as a refresher course.</p> 
+        <p class="main__chapter3-text-item2">We’re going to cover the core concepts behind React:</p>
+        <p class="main__chapter3-text-item3"> <b> + components. </b> The rest of this introduction to React uses cats in <br/> its examples: friendly,  
+          approachable creatures that need names<br/>  and a cafe to work in.</p>
+        <p class="main__chapter3-text-item4"> <b> + JSX. </b> React and React Native use JSX, a syntax that lets you write <br/> elements inside JavaScript like so: <br/>   
+          <span style="background-color: rgb(218, 214, 214);"> &lt;Text&gt;Hello, I am your cat! &lt;/Text&gt;</span> .</p> 
+        <p class="main__chapter3-text-item5">The React docs have <u> a comprehensive guide to JSX </u> you can refer <br/> to learn even more. Because JSX is  
+          JavaScript, you can use <br/> variables inside it. Here you are declaring a <span style="background-color: rgb(218, 214, 214);"> name  </span> for the cat, <br/> name, and  
+          embedding it with curly braces inside <span style="background-color: rgb(218, 214, 214);"> &lt;Text&gt; </span> </p> 
+        <p class="main__chapter3-text-item6"> <b> + props. </b> Props is short for “properties”. </p>
+        <p class="main__chapter3-text-item7"> <b> + state.</b>  While you can think of props as arguments you use to <br/> configure how components render,  
+          state is like a component’s <br/> personal data storage. State is useful for handling data that <br/> changes over   
+          time or that comes from user interaction. State <br/> gives your components memory!</p>
+      </div>  
+    </div>  
+      
+    <div class="main__divider4"></div>
+
+    <div class="main__chapter4">
+      <div class="main__chapter4-title">
+        <h2 class="main__chapter4-title-header">handling text input</h2>
+        <p class="main__chapter4-title-text">Chapter4</p>
+      </div>
+      <div class="main__chapter4-text"> 
+        <p class="main__chapter4-text-item1">TextInput is a Core Component that allows the user to enter text. <br/> It has an <em> onChangeText </em> prop that  
+          takes a function to be called <br/> every time the text changed, and an onSubmitEditing prop that <br/> takes a  
+          function to be called when the text is submitted.</p>
+        <p class="main__chapter4-text-item2">For example, let's say that as the user types, you're translating <br/> their words into a different language.  
+          In this new language, every <br/> single word is written the same way: 🍕. So the sentence "Hello <br/> there  
+          Bob" would be translated as "🍕 🍕".</p>
+      </div>  
+    </div>
+  </div>
+</body>
+</html>

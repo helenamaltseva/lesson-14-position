@@ -1,0 +1,565 @@
+.header {
+  width: 1440px;
+  height: 80px; 
+  margin: 0 auto;
+  
+  position: fixed;
+  top: 0;
+  background-color: #FFFFFF;
+  z-index: 2;
+}
+
+.header__block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 55px;
+  
+  padding: 0px;
+     
+  width: 1200px;
+  height: 54px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  margin-top: 13px;
+}
+
+.header__block-text {
+  font-family: 'Tourney';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+
+  padding-right: 50px;
+ }
+
+.header__block-navigation-list {
+  display: flex;
+  justify-content: space-between;
+    
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+
+  padding-right: 478px;
+}
+
+.header__block-navigation-list-item {
+  font-family: 'Staatliches', sans-serif;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  
+  cursor: pointer;
+}
+
+.header__block-navigation-list-text {
+  font-family: 'Staatliches', sans-serif;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.header__block-logo {
+  width: 238px;
+  height: 49px;
+  display: flex;
+  text-align: center;
+  padding-right: 0;
+}
+
+
+aside {
+  position: sticky;
+  top: 110px;
+  max-height: 2800px;
+  gap: 70px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+  margin-left: 120px;
+  margin-top: 160px;
+  width: 385px;
+}
+
+.side-bar__title1 {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 234px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.side-bar__title2 {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 310px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.side-bar__title3 {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 367px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.side-bar__title4 {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 355px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 90px;
+  gap: 70px;
+  
+  position: absolute;
+  width: 785px;
+  height: 2931px;
+  left: 535px;
+  top: 150px;
+}
+
+.main__image {
+  position: fixed;
+  
+  background: url('../img/1-1.jpg');
+  margin-top: 150px;
+  margin-left: 307px;
+  z-index: -1;
+}
+
+.main__divider1 {
+  width: 100px;
+  height: 8px;
+  
+  background: #000000;
+
+  padding-bottom: 8px;
+}
+
+
+
+.main__chapter1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 785px;
+  height: 308px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  border-top: #000000;
+}
+
+.main__chapter1-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 20px;
+
+  width: 344px;
+  height: 48px;
+}
+
+.main__chapter1-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 234px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter1-title-text {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter1-text {
+  width: 785px;
+  height: 192px;
+  
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter1-text-item1 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 785px;
+  height: 192px;
+}
+
+
+
+.main__divider2 {
+  width: 100px;
+  height: 8px;
+  
+  background: #000000;
+
+  padding-bottom: 10px;
+}
+
+.main__chapter2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 785px;
+  height: 452px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.main__chapter2-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 10px;
+
+  width: 420px;
+  height: 48px;
+}
+
+.main__chapter2-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 310px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter2-text {
+  width: 785px;
+  height: 336px;
+  
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter2-title-text {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter2-text-item1 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 785px;
+  height: 386px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.main__divider3 {
+  width: 100px;
+  height: 8px;
+  
+  background: #000000;
+
+  padding-bottom: 10px;
+}
+
+.main__chapter3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 785px;
+  height: 1131px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.main__chapter3-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 10px;
+
+  width: 477px;
+  height: 48px;
+}
+
+.main__chapter3-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 367px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter3-title-text {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter3-text {
+
+}
+
+.main__chapter3-text-item1 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter3-text-item2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter3-text-item3 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter3-text-item4 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter3-text-item5 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter3-text-item6 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.main__chapter3-text-item7 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+
+
+.main__divider4 {
+  width: 100px;
+  height: 8px;
+  
+  background: #000000;
+
+  padding-bottom: 10px;
+}
+
+.main__chapter4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 785px;
+  height: 540px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.main__chapter4-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  gap: 10px;
+
+  width: 465px;
+  height: 48px;
+}
+
+.main__chapter4-title-header {
+  font-family: 'Francois One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 355px;
+  line-height: 48px;
+
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.main__chapter4-title-text {
+  font-family: 'Farro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+    
+  width: 100px;
+  height: 20px;
+  
+  letter-spacing: 0.04em;
+
+  flex: none;
+  order: 1;
+}
+
+.main__chapter4-text-item1 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 785px;
+  height: 192px;
+}
+
+.main__chapter4-text-item2 {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+
+  width: 785px;
+  height: 192px;
+}
+
+
+
+
+
+
+
+
+

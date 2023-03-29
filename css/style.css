@@ -9,14 +9,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
-
-  height: calc(100vh - 111px);
 }
 
-body {
-  position: relative;
-  min-height: 100vh;
-}
 
 .header {
   width: 1440px;
@@ -158,31 +152,22 @@ aside {
   text-transform: uppercase;
 }
 
-
-
-
 .main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px 0px 90px;
   gap: 70px;
-  
-  margin-top: 10px;
-  margin-right: 120px;
-  margin-left: 30px;
+  top: 0;
 
-  position: absolute;
-  width: 785px;
-  left: 535px;
-  top: 150px;
+  margin-left: 535px;
 }
 
 .main__image {
   position: fixed;
   
   background: url('../img/1-1.jpg');
-  margin-top: 150px;
+  margin-top: 10px;
   margin-left: 307px;
   z-index: -1;
 }
